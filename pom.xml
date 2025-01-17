@@ -22,7 +22,6 @@
         <java.version>17</java.version>
         <jwt.version>0.11.5</jwt.version>
         <springdoc.version>2.3.0</springdoc.version>
-
     </properties>
 
     <dependencies>
@@ -47,7 +46,6 @@
             <version>8.0.0.Final</version>
         </dependency>
 
-
         <!-- Spring Boot Starter Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -59,13 +57,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-        
+
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
             <version>2.15.2</version>
         </dependency>
-
 
         <!-- MariaDB Driver -->
         <dependency>
@@ -98,13 +95,13 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.8.2</version>
+            <version>5.10.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.8.2</version>
+            <version>5.10.1</version>
             <scope>test</scope>
         </dependency>
 
@@ -198,19 +195,6 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.10.1</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>com.fasterxml.jackson.datatype</groupId>
-            <artifactId>jackson-datatype-jsr310</artifactId>
-            <version>2.15.2</version>
-        </dependency>
-
-
     </dependencies>
 
     <build>
@@ -219,7 +203,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.ups.medical.MedicalAppointmentsApplication</mainClass>
+                    <mainClass>com.olme_gue.gestion.educativa.GestionEducativa</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
